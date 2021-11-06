@@ -143,7 +143,7 @@ main section{
     padding-top: 100px;
 }
 
-main section:nth-child(even){
+main section:nth-of-type(even){
     background-color: #f6f6f6;
 }
 
@@ -288,6 +288,15 @@ footer div.center-conteiner div.no-white-space{
 
 #languages option{
     color: black;
+}
+
+svg{
+    fill: #f6f6f6;
+    transform: translate(0px, 4px);
+}
+
+svg:nth-of-type(even){
+    transform: scaleY(-1);
 }
 
 
