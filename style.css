@@ -17,11 +17,14 @@ a:hover{
     text-decoration: underline;
 }
 
-header{
-    background-color: #3161e0;
+header, #footer-bar{
     min-height: 80px;
     line-height: 80px;
     text-align: center;
+}
+
+header{
+    background-color: #3161e0;
 }
 
 .center-conteiner{
@@ -39,7 +42,7 @@ header{
     float: left;
 }
 
-#login{
+#login, #sing-in{
     float: right;
 }
 
@@ -48,14 +51,16 @@ header{
 }
 
 nav, 
-nav ul li, 
-#login,
+nav ul li,
 .banner-button a,
-#ls-button a{
+#ls-button a,
+#lang-social,
+#footer-nav,
+#footer-nav div{
     display: inline-block;
 }
 
-#login a{
+#login a, #sing-in a{
     display: inline;
     font-size: 13px;
 }
@@ -92,11 +97,11 @@ nav ul li{
 }
 
 .bgblue-fcwhite{
-    background-color: #5865f2;
+    background-color: #747ef0;
 }
 
 .bgblue-fcwhite:hover{
-    background-color: #747ef0;
+    background-color: #8d95ec;
 }
 
 #banner{
@@ -209,12 +214,81 @@ main section:nth-child(even){
     color: #23272a;
 }
 
+footer{
+    background-color: #23272a;
+    padding: 100px 0px;
+}
 
+#lang-social{
+    width: 40%;
+}
 
+#footer-nav{
+    width: 60%;
+}
 
+#footer-nav div{
+    width: 25%;
+}
 
+#footer-nav a{
+    display: block;
+    margin-top: 20px;
+}
 
+footer div.center-conteiner div.no-white-space{
+    border-bottom: 1px solid #747ef0;
+    padding-bottom: 30px;
+}
 
+.no-white-space{
+    font-size: 0;
+}
+
+.reset-white-space{
+    font-size: initial;
+}
+
+.top-start{
+    vertical-align: top;
+}
+
+#lang-social h3{
+    color: #747ef0;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+#lang-social select{
+    margin-bottom: 30px;
+}
+
+#social-link{
+    font-size: 20px;
+} 
+
+#social-link a{
+    margin-right: 20px;
+}
+
+#footer-nav h4{
+    color: #747ef0;
+}
+
+#lang-img{
+    height: 16px;
+    vertical-align: middle;
+}
+
+#languages{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#languages option{
+    color: black;
+}
 
 
 
